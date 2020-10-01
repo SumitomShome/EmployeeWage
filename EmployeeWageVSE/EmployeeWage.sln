@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeWage", "EmployeeWag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UC2", "EmployeeWage2\UC2.csproj", "{19369C90-2EED-463E-8997-E6F9813F0445}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UC3", "UC3\UC3.csproj", "{E03A642E-9CFA-496D-ACF3-B0AA331D8E16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UC3", "UC3\UC3.csproj", "{E03A642E-9CFA-496D-ACF3-B0AA331D8E16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UC4", "UC4\UC4.csproj", "{4961539C-4D92-42D2-8145-4250E0D1B472}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E03A642E-9CFA-496D-ACF3-B0AA331D8E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E03A642E-9CFA-496D-ACF3-B0AA331D8E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E03A642E-9CFA-496D-ACF3-B0AA331D8E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4961539C-4D92-42D2-8145-4250E0D1B472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4961539C-4D92-42D2-8145-4250E0D1B472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4961539C-4D92-42D2-8145-4250E0D1B472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4961539C-4D92-42D2-8145-4250E0D1B472}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
