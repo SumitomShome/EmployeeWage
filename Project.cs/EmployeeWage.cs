@@ -1,17 +1,30 @@
 using System;
 namespace Wage
 {
-    class Program
+    public class CompanyEmpWage
     {
-            Console.WriteLine("Welcome to Employee Wage Problem");
-            EmpWageBuilderObject dMart = new EmpWageBuilderObject("DMart", 20, 2, 10);
-            EmpWageBuilderObject reliance = new EmpWageBuilderObject("Reliance", 10, 4, 20);
-            dMart.computeEmpWage();
-            Console.WriteLine(dMart.toString());
-            reliance.computeEmpWage();
-            Console.WriteLine(reliance.toString());
-            Console.WriteLine(reliance.toString());
-            Console.ReadKey();
+        public string company;
+        public int empRatePerHour;
+        public int numOfWorkingDays;
+        public int maxHoursPerMonth;
+        public int totalEmpWage;
+        public CompanyEmpWage(string company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMonth)
+        {
+            this.company = company;
+            this.empRatePerHour = empRatePerHour;
+            this.numOfWorkingDays = numOfWorkingDays;
+            this.maxHoursPerMonth = maxHoursPerMonth;
+            this.totalEmpWage = 0;
+        }
+        public void setTotalEmpWage(int totalEmpWage)
+        {
+            this.totalEmpWage = totalEmpWage;
+        }
+        public string toString()
+        {
+            return "Total Emp Wage for company: " + this.company + " is: " + this.totalEmpWage;
         }
     }
+
+}
 }
